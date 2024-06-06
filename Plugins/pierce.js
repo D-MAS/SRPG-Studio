@@ -1,3 +1,4 @@
+// Target's DEF is halved. Does not work with activation chance as of yet.
 (function () {
 	var alias1 = DamageCalculator.calculateDefense;
 	DamageCalculator.calculateDefense = function (active, passive, weapon, isCritical, totalStatus, trueHitValue) {
