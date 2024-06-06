@@ -1,3 +1,5 @@
+// staves use Mag/2 instead of entire magic stat
+// Not compatible with Str/Mag merge
 	Calculator.calculateRecoveryItemPlus = function(unit, targetUnit, item) {
 		var plus = 0;
 		var itemType = item.getItemType();
