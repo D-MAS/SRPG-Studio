@@ -1,3 +1,5 @@
+// Requires Vantage to have higher Agi to activate
+
 (function() {
 	NormalAttackOrderBuilder._isDefaultPriority = function(virtualActive, virtualPassive) {
 		var active = virtualActive.unitSelf;
