@@ -1,3 +1,4 @@
+// Absorption skill now only absorbs 25% of HP, with weapons absorbing half. stacks additively.
 (function() {
 	AttackEvaluator.ActiveAction._arrangeActiveDamage = function(virtualActive, virtualPassive, attackEntry) {
 		var max;
