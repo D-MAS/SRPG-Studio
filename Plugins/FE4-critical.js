@@ -1,3 +1,4 @@
+// Criticals multiply total attack power before defense
 	DamageCalculator.calculateDamage = function(active, passive, weapon, isCritical, activeTotalStatus, passiveTotalStatus, trueHitValue) {
 		var pow, def, damage;
 
